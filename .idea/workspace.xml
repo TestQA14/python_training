@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c17164-58f5-4839-b3c4-1d702a01210c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +35,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="py" value="2230" />
+          <entry key="py" value="2721" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="2230" />
+          <entry key="Python" value="2721" />
         </counts>
       </usages-collector>
     </session>
@@ -50,12 +51,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            <state relative-caret-position="380">
+              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
                 <element signature="e#25#38#0" expanded="true" />
-                <marker date="1533901589416" expanded="true" signature="239:242" ph="..." />
-                <marker date="1533901589416" expanded="true" signature="829:1118" ph="..." />
+                <marker date="1533903955028" expanded="true" signature="239:242" ph="..." />
+                <marker date="1533903955028" expanded="true" signature="829:1252" ph="..." />
+                <marker date="1533903955028" expanded="true" signature="960:1067" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,10 +66,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+            <state relative-caret-position="418">
+              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
               <folding>
-                <marker date="1533903190320" expanded="true" signature="77:82" ph="..." />
+                <marker date="1533906143588" expanded="true" signature="77:82" ph="..." />
+                <marker date="1533906143588" expanded="true" signature="3203:3313" ph="..." />
+                <marker date="1533906143588" expanded="true" signature="3334:3512" ph="..." />
+                <marker date="1533906143588" expanded="true" signature="5459:6072" ph="..." />
               </folding>
             </state>
           </provider>
@@ -278,18 +283,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_ProjectPage_ProjectPage_test_create_project - 2018.08.10 at 12h 20m 50s.xml">
-      <configuration name="pytest for ProjectPage.ProjectPage.test_create_project" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_ProjectPage_ProjectPage_test_create_project - 2018.08.10 at 12h 21m 22s.xml">
-      <configuration name="pytest for ProjectPage.ProjectPage.test_create_project" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_ProjectPage_py - 2018.08.10 at 14h 52m 59s.xml">
-      <configuration name="pytest in ProjectPage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 14h 56m 13s.xml">
-      <configuration name="pytest in HomePage.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 14h 57m 44s.xml">
       <configuration name="pytest in HomePage.py" configurationId="tests" />
     </history-entry>
@@ -306,6 +299,18 @@
       <configuration name="pytest in HomePage.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 15h 09m 04s.xml">
+      <configuration name="pytest in HomePage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 15h 14m 16s.xml">
+      <configuration name="pytest in HomePage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 15h 27m 03s.xml">
+      <configuration name="pytest in HomePage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 15h 59m 11s.xml">
+      <configuration name="pytest in HomePage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 16h 03m 43s.xml">
       <configuration name="pytest in HomePage.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -336,16 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/users.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <marker date="1533891860011" expanded="true" signature="11:16" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -364,22 +359,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="380">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding>
             <element signature="e#25#38#0" expanded="true" />
-            <marker date="1533901589416" expanded="true" signature="239:242" ph="..." />
-            <marker date="1533901589416" expanded="true" signature="829:1118" ph="..." />
+            <marker date="1533903955028" expanded="true" signature="239:242" ph="..." />
+            <marker date="1533903955028" expanded="true" signature="829:1252" ph="..." />
+            <marker date="1533903955028" expanded="true" signature="960:1067" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1533891860011" expanded="true" signature="11:16" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+        <state relative-caret-position="418">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
           <folding>
-            <marker date="1533903190320" expanded="true" signature="77:82" ph="..." />
+            <marker date="1533906143588" expanded="true" signature="77:82" ph="..." />
+            <marker date="1533906143588" expanded="true" signature="3203:3313" ph="..." />
+            <marker date="1533906143588" expanded="true" signature="3334:3512" ph="..." />
+            <marker date="1533906143588" expanded="true" signature="5459:6072" ph="..." />
           </folding>
         </state>
       </provider>

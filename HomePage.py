@@ -41,6 +41,11 @@ def test_delete_project(app):
     app.delete_project()
 
 
+def test_exit_project(app):
+    app.login(email="chemisova.irina2012@gmail.com", password="test123456")
+    app.exit_from_project()
+
+
 def test_edit_project(app):
     app.login(email="chemisova.irina2012@gmail.com", password="test123456")
     app.edit_project("test_project_1", "new_description_project_1")
