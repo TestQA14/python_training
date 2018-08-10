@@ -5,7 +5,7 @@ class UsersHelper:
         self.app = app
 
     def sign_up(self, users):
-        wd = self.qpp.wd
+        wd = self.app.wd
         self.app.open_home_page()
         wd.find_element_by_xpath("/html/body/div/fieldset/div[2]/form/div/a[1]").click()
         wd.find_element_by_id("user_name").click()
