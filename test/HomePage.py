@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
-from users import User
-from application import Application
+from model.users import User
+from fixture.application import Application
 
 
 @pytest.fixture
@@ -49,6 +49,11 @@ def test_exit_project(app):
 def test_edit_project(app):
     app.login(email="chemisova.irina2012@gmail.com", password="test123456")
     app.edit_project("test_project_1", "new_description_project_1")
+
+
+def test_create_build(app):
+    app.login(email="chemisova.irina2012@gmail.com", password="test123456")
+    app.create_build(build_name="test_build", build_created_date="10.08.2018")
 
 # checklist
 
