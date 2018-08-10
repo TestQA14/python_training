@@ -7,7 +7,7 @@ class ProjectHelper:
      # methods
     def create_project(self, project_name, project_description):
             wd = self.app.wd
-            self.open_projects_page()
+            self.app.open_projects_page()
             self.click_on_create_button()
             wd.find_element_by_id("project_name").click()
             wd.find_element_by_id("project_name").clear()
@@ -21,8 +21,8 @@ class ProjectHelper:
 
     def edit_project(self, project_name, project_description):
             wd = self.wd
-            self.open_projects_page()
-            self.open_edit_project_page()
+            self.app.open_projects_page()
+            self.app.open_edit_project_page()
             wd.find_element_by_id("project_name").click()
             wd.find_element_by_id("project_name").clear()
             wd.find_element_by_id("project_name").send_keys(project_name)
@@ -33,20 +33,20 @@ class ProjectHelper:
 
     def exit_from_project(self):
             wd = self.wd
-            self.open_projects_page()
+            self.app.open_projects_page()
             wd.find_element_by_xpath("//div[@class='prj'][1]/span/input[@type='checkbox']").click()
             wd.find_element_by_xpath("//*[@id='span_delete_button']/div").click()
             wd.find_element_by_id("popup_ok").click()
 
     def delete_project(self):
             wd = self.wd
-            self.open_edit_project_page()
+            self.app.open_edit_project_page()
             wd.find_element_by_xpath("//*[@id='main']/div/div/span").click()
             wd.find_element_by_id("popup_ok").click()
 
     def create_build(self, build_name, build_created_date):
             wd = self.wd
-            self.open_builds_of_project_page()
+            self.app.open_builds_of_project_page()
             self.click_on_create_button()
             wd.find_element_by_id("build_created_at").click()
             wd.find_element_by_id("build_created_at").clear()
@@ -70,5 +70,5 @@ class ProjectHelper:
 
     def edit_build(self):
             wd = self.wd
-            self.open_builds_of_project_page()
+            self.app.open_builds_of_project_page()
             wd.find_element_by_xpath("//div[@class='prj'][1]/span/input[@type='checkbox']").click()
