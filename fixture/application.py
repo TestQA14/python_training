@@ -12,7 +12,7 @@ class Application:
         self.wd = WebDriver()
         self.wd.implicitly_wait(60)
         self.session = SessionHelper(self)
-        self.users = UsersHelper(self)
+        self.user = UsersHelper(self)
         self.project = ProjectHelper(self)
         self.page = PageHelper(self)
 
