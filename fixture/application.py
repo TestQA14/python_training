@@ -49,14 +49,12 @@ class Application:
             wd = self.wd
             self.open_builds_of_project_page()
             self.click_on_create_button()
-            wd.find_element_by_id("build_name").click()
-            wd.find_element_by_id("build_name").clear()
-            wd.find_element_by_id("build_name").send_keys(build_name)
             wd.find_element_by_id("build_created_at").click()
             wd.find_element_by_id("build_created_at").clear()
             wd.find_element_by_id("build_created_at").send_keys(build_created_date)
             wd.find_element_by_id("build_name").click()
-            wd.find_element_by_id("build_name").click()
+            wd.find_element_by_id("build_name").clear()
+            wd.find_element_by_id("build_name").send_keys(build_name)
             wd.find_element_by_xpath("//*[@id ='build_form']/div[3]/button").click()
 
     def click_on_create_button(self):
