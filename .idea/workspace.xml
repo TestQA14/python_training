@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="01c17164-58f5-4839-b3c4-1d702a01210c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/HomePage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +36,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="py" value="2856" />
+          <entry key="py" value="3002" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="2856" />
+          <entry key="Python" value="3002" />
         </counts>
       </usages-collector>
     </session>
@@ -50,37 +52,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/HomePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="177">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="e#25#38#0" expanded="true" />
-                <marker date="1533908644252" expanded="true" signature="253:256" ph="..." />
-                <marker date="1533908644252" expanded="true" signature="843:1451" ph="..." />
-                <marker date="1533908644252" expanded="true" signature="974:1081" ph="..." />
-                <marker date="1533908644252" expanded="true" signature="1282:1439" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fixture/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-              <folding>
-                <marker date="1533908871906" expanded="true" signature="77:82" ph="..." />
-                <marker date="1533908871906" expanded="true" signature="3204:3314" ph="..." />
-                <marker date="1533908871906" expanded="true" signature="3335:3513" ph="..." />
-                <marker date="1533908871906" expanded="true" signature="5460:6073" ph="..." />
+                <marker date="1533909426479" expanded="true" signature="253:256" ph="..." />
+                <marker date="1533909426479" expanded="true" signature="867:1507" ph="..." />
+                <marker date="1533909426479" expanded="true" signature="1006:1121" ph="..." />
+                <marker date="1533909426479" expanded="true" signature="1330:1495" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+                <marker date="1533909376779" expanded="true" signature="122:127" ph="..." />
+                <marker date="1533909376779" expanded="true" signature="3292:3402" ph="..." />
+                <marker date="1533909376779" expanded="true" signature="3423:3601" ph="..." />
+                <marker date="1533909376779" expanded="true" signature="4915:5528" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixture/session.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <marker date="1533909709915" expanded="true" signature="21:22" ph="..." />
+                <marker date="1533909709915" expanded="true" signature="21:76" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -130,8 +141,9 @@
         <option value="$PROJECT_DIR$/ProjectPage.py" />
         <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/HomePage.py" />
-        <option value="$PROJECT_DIR$/fixture/session.py" />
+        <option value="$PROJECT_DIR$/test/HomePage.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/fixture/session.py" />
       </list>
     </option>
   </component>
@@ -322,15 +334,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 16h 03m 43s.xml">
-      <configuration name="pytest in HomePage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 16h 06m 43s.xml">
-      <configuration name="pytest in HomePage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 16h 09m 54s.xml">
-      <configuration name="pytest in HomePage.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 16h 14m 31s.xml">
       <configuration name="pytest in HomePage.py" configurationId="tests" />
     </history-entry>
@@ -350,6 +353,15 @@
       <configuration name="pytest in HomePage.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 16h 46m 26s.xml">
+      <configuration name="pytest in HomePage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 16h 49m 10s.xml">
+      <configuration name="pytest in HomePage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 16h 57m 57s.xml">
+      <configuration name="pytest in HomePage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_HomePage_py - 2018.08.10 at 17h 01m 43s.xml">
       <configuration name="pytest in HomePage.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -406,32 +418,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/HomePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="177">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
             <element signature="e#25#38#0" expanded="true" />
-            <marker date="1533908644252" expanded="true" signature="253:256" ph="..." />
-            <marker date="1533908644252" expanded="true" signature="843:1451" ph="..." />
-            <marker date="1533908644252" expanded="true" signature="974:1081" ph="..." />
-            <marker date="1533908644252" expanded="true" signature="1282:1439" ph="..." />
+            <marker date="1533909426479" expanded="true" signature="253:256" ph="..." />
+            <marker date="1533909426479" expanded="true" signature="867:1507" ph="..." />
+            <marker date="1533909426479" expanded="true" signature="1006:1121" ph="..." />
+            <marker date="1533909426479" expanded="true" signature="1330:1495" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+        <state relative-caret-position="461">
+          <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
           <folding>
-            <marker date="1533908871906" expanded="true" signature="77:82" ph="..." />
-            <marker date="1533908871906" expanded="true" signature="3204:3314" ph="..." />
-            <marker date="1533908871906" expanded="true" signature="3335:3513" ph="..." />
-            <marker date="1533908871906" expanded="true" signature="5460:6073" ph="..." />
+            <element signature="e#0#57#0" expanded="true" />
+            <marker date="1533909376779" expanded="true" signature="122:127" ph="..." />
+            <marker date="1533909376779" expanded="true" signature="3292:3402" ph="..." />
+            <marker date="1533909376779" expanded="true" signature="3423:3601" ph="..." />
+            <marker date="1533909376779" expanded="true" signature="4915:5528" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1533909709915" expanded="true" signature="21:22" ph="..." />
+            <marker date="1533909709915" expanded="true" signature="21:76" ph="..." />
           </folding>
         </state>
       </provider>

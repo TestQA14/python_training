@@ -14,11 +14,11 @@ def app(request):
 
 
 def test_login(app):
-    app.login(email="chemisova.irina2012@gmail.com", password="test123456")
+    app.session.login(email="chemisova.irina2012@gmail.com", password="test123456")
 
 
 def test_empty_login(app):
-    app.login(email="", password="")
+    app.session.login(email="", password="")
 
 
 def test_signup(app):
@@ -32,27 +32,27 @@ def test_empty_signup(app):
 
 
 def test_create_project(app):
-    app.login(email="chemisova.irina2012@gmail.com", password="test123456")
+    app.session.login(email="chemisova.irina2012@gmail.com", password="test123456")
     app.create_project("project_1", "description_project_1")
 
 
 def test_delete_project(app):
-    app.login(email="chemisova.irina2012@gmail.com", password="test123456")
+    app.session.login(email="chemisova.irina2012@gmail.com", password="test123456")
     app.delete_project()
 
 
 def test_exit_project(app):
-    app.login(email="chemisova.irina2012@gmail.com", password="test123456")
+    app.session.login(email="chemisova.irina2012@gmail.com", password="test123456")
     app.exit_from_project()
 
 
 def test_edit_project(app):
-    app.login(email="chemisova.irina2012@gmail.com", password="test123456")
+    app.session.login(email="chemisova.irina2012@gmail.com", password="test123456")
     app.edit_project("test_project_1", "new_description_project_1")
 
 
 def test_create_build(app):
-    app.login(email="chemisova.irina2012@gmail.com", password="test123456")
+    app.session.login(email="chemisova.irina2012@gmail.com", password="test123456")
     app.create_build(build_name="test_build", build_created_date="10.08.2018")
 
 # checklist

@@ -1,9 +1,14 @@
 from selenium.webdriver.chrome.webdriver import WebDriver
+
+from fixture.session import SessionHelper
+
+
 class Application:
 
     def __init__(self):
         self.wd = WebDriver()
         self.wd.implicitly_wait(60)
+        self.session = SessionHelper(self)
 
         # methods
     def create_project(self, project_name, project_description):
@@ -92,17 +97,6 @@ class Application:
             wd.find_element_by_id("user_notification").click()
             wd.find_element_by_id("user_is_polit").click()  # agree
             wd.find_element_by_id("submit_button").click()
-
-    def login(self, email="chemisova.irina2012@gmail.com", password="test123456"):
-            wd = self.wd
-            self.open_home_page()
-            wd.find_element_by_id("user_auth_email").click()
-            wd.find_element_by_id("user_auth_email").clear()
-            wd.find_element_by_id("user_auth_email").send_keys(email)
-            wd.find_element_by_id("user_auth_password").click()
-            wd.find_element_by_id("user_auth_password").clear()
-            wd.find_element_by_id("user_auth_password").send_keys(password)
-            wd.find_element_by_xpath("/html/body/div/fieldset/div[2]/form/div/input").click()
 
     def open_home_page(self):
             wd = self.wd
