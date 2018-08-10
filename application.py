@@ -31,7 +31,7 @@ class Application:
             wd.find_element_by_id("project_description").click()
             wd.find_element_by_id("project_description").clear()
             wd.find_element_by_id("project_description").send_keys(project_description)
-            wd.find_element_by_xpath("//*[@Id='form_add_project']/div[6]/input").click()
+            wd.find_element_by_xpath("//*[@id='form_add_project']/div[6]/input").click()
 
     def delete_project(self):
             wd = self.wd
