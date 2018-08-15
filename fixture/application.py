@@ -4,6 +4,7 @@ from fixture.navigation import PageHelper
 from fixture.project import ProjectHelper
 from fixture.session import SessionHelper
 from fixture.user import UsersHelper
+from fixture.usersproject import UsersProjectHelper
 
 
 class Application:
@@ -15,6 +16,7 @@ class Application:
         self.user = UsersHelper(self)
         self.project = ProjectHelper(self)
         self.page = PageHelper(self)
+        self.usersproject = UsersProjectHelper(self)
 
     def open_home_page(self):
         wd = self.wd
@@ -29,13 +31,18 @@ class Application:
         wd = self.wd
         wd.find_element_by_xpath('//*[@id="span_edit_button"]/div').click()
 
-    def select_first(self, wd):
+    def select_first_project(self):
+        wd = self.wd
         wd.find_element_by_xpath('//div[@class="prj"][1]/span/input[@type="checkbox"]').click()
+
+    def click_on_edit_button(self):
+        wd = self.wd
+        wd.find_element_by_xpath('//*[@id="controlmenu"]/span[2]').click()
 
     def open_builds_of_project_page(self):
         wd = self.wd
         self.open_projects_page()
-        self.select_first(wd)
+        self.select_first_project(wd)
         wd.find_element_by_xpath('//*[@id="span_edit_button"]/div').click()
         wd.find_element_by_xpath('//*[@id="main"]/div/div/a[1]').click()
 

@@ -30,7 +30,7 @@ class SessionHelper:
     def is_logged_in(self):
         wd = self.app.wd
         if wd.find_element_by_id("username").isDisplayed():
-            return len(wd.find_element_by_id("username"))
+            return len(wd.find_element_by_id("username")).text == "test"
         else:
             return False
 
