@@ -4,7 +4,7 @@ class SessionHelper:
     def __init__(self, app):
         self.app = app
 
-    def login(self, email="chemisova.irina2012@gmail.com", password="test123456"):
+    def login(self, email, password):
         wd = self.app.wd
         self.app.open_home_page()
         wd.find_element_by_id("user_auth_email").click()
