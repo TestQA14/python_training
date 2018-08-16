@@ -2,8 +2,8 @@
 
 from model.project import Project
 import pytest
-from data.add_project import testdata4
-from data.add_project import testdata2
+from data.projects import testdata4
+from data.projects import testdata2
 
 
 def test_create_project(app):

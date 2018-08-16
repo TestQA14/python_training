@@ -38,8 +38,7 @@ testdata2 = [Project(name="", description="")] + [
              Project(name=random_string("name", 10), description=random_string("description", 40))
              for i in range(5)]
 
-testdata3 = [
-             Project(name=name, description=description)
+testdata3 = [Project(name=name, description=description)
              for name in ["", random_string("name", 10)]
              for description in ["", random_string("description", 30)]]
 
