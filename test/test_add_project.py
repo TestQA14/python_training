@@ -6,6 +6,18 @@ from data.projects import testdata4
 from data.projects import testdata2
 
 
+def test_adding_project(app, data_projects):
+        project = data_projects
+        old_projects = app.project.get_project_list()
+        app.project.create(project)
+        assert len(old_projects) + 1 == app.project.count()
+        new_projects = app.project.get_project_list()
+        old_projects.append(project)
+        old_projects = app.project.get_project_list()
+        assert sorted(old_projects, key=Project.id_or_max) == sorted(new_projects, key=Project.id_or_max)
+
+
+
 def test_create_project(app):
     for project in testdata4:
         old_projects = app.project.get_project_list()

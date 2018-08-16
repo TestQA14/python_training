@@ -60,8 +60,7 @@ class Application:
     def is_valid(self):
         try:
            c_url = str(self.wd.current_url)
-           if not c_url == "data:,":
-                return True
+           return True
         except:
             return False
 

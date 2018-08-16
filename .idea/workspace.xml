@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c17164-58f5-4839-b3c4-1d702a01210c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/add_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/projects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/projects.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/projects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_project.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +28,7 @@
           <entry key="LICENSE" value="1" />
           <entry key="json" value="3" />
           <entry key="log" value="1" />
-          <entry key="py" value="156" />
+          <entry key="py" value="159" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
@@ -36,7 +36,7 @@
         <counts>
           <entry key="JSON" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="156" />
+          <entry key="Python" value="159" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -44,14 +44,14 @@
         <counts>
           <entry key="dummy" value="60" />
           <entry key="json" value="100" />
-          <entry key="py" value="12127" />
+          <entry key="py" value="12487" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="100" />
           <entry key="PLAIN_TEXT" value="60" />
-          <entry key="Python" value="12127" />
+          <entry key="Python" value="12487" />
         </counts>
       </usages-collector>
     </session>
@@ -59,10 +59,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_del_project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <element signature="e#24#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/projects.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,23 +85,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_add_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="e#25#58#0" expanded="true" />
-                <marker date="1534426394447" expanded="true" signature="501:506" ph="..." />
-                <marker date="1534426394447" expanded="true" signature="742:1179" ph="..." />
-                <marker date="1534426394447" expanded="true" signature="770:1167" ph="..." />
+                <marker date="1534428573007" expanded="true" signature="982:987" ph="..." />
+                <marker date="1534428573007" expanded="true" signature="1223:1660" ph="..." />
+                <marker date="1534428573007" expanded="true" signature="1251:1648" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="605">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -102,12 +126,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="77" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="77" />
+            <state relative-caret-position="300">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-                <marker date="1534423500133" expanded="true" signature="809:873" ph="..." />
-                <marker date="1534423500133" expanded="true" signature="949:954" ph="..." />
+                <marker date="1534429664716" expanded="true" signature="830:894" ph="..." />
+                <marker date="1534429664716" expanded="true" signature="970:975" ph="..." />
+                <marker date="1534429664716" expanded="true" signature="1374:1379" ph="..." />
+                <marker date="1534429664716" expanded="true" signature="1625:1690" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+                <marker date="1534429547649" expanded="true" signature="268:273" ph="..." />
+                <marker date="1534429547649" expanded="true" signature="2062:2189" ph="..." />
               </folding>
             </state>
           </provider>
@@ -161,11 +201,12 @@
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/target.json" />
         <option value="$PROJECT_DIR$/test/conftest.py" />
+        <option value="$PROJECT_DIR$/data/add_project.py" />
+        <option value="$PROJECT_DIR$/generator/project.py" />
+        <option value="$PROJECT_DIR$/test/test_add_project.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/data/add_project.py" />
-        <option value="$PROJECT_DIR$/test/test_add_project.py" />
-        <option value="$PROJECT_DIR$/generator/project.py" />
+        <option value="$PROJECT_DIR$/data/projects.py" />
       </list>
     </option>
   </component>
@@ -197,7 +238,17 @@
             <path>
               <item name="python_training1" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_training1" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_training1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_training1" type="462c0819:PsiDirectoryNode" />
               <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_training1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_training1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_training1" type="b2602c69:ProjectViewProjectNode" />
@@ -235,28 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.project">
-    <configuration name="project" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FBProjectTraining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/generator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator/project.py" />
-      <option name="PARAMETERS" value="-n 10 -f data/test.json" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_add_project.test_adding_project (3)">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="FBProjectTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,7 +302,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_project" type="tests" factoryName="py.test" temporary="true">
+    <configuration name="pytest for test_add_project.test_adding_project (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="FBProjectTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,9 +311,54 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;test_create_project&quot;" />
+      <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_project.test_create_project&quot;" />
+      <option name="_new_target" value="&quot;test_add_project.test_adding_project&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_project.test_adding_project (2)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="FBProjectTraining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_project.test_adding_project&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_project.test_adding_project (3)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="FBProjectTraining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_project.test_adding_project&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_project.test_adding_project" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="FBProjectTraining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_project.test_adding_project&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -302,21 +377,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_del_project" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="FBProjectTraining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/2.7/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_del_project&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_add_project.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="FBProjectTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,35 +392,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_del_project.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="FBProjectTraining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_del_project.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.project" />
       <item itemvalue="Python tests.pytest in test_add_project.py" />
-      <item itemvalue="Python tests.pytest for test_add_project" />
-      <item itemvalue="Python tests.pytest in test_del_project.py" />
-      <item itemvalue="Python tests.pytest for test_del_project" />
+      <item itemvalue="Python tests.pytest for test_add_project.test_adding_project" />
+      <item itemvalue="Python tests.pytest for test_add_project.test_adding_project (1)" />
+      <item itemvalue="Python tests.pytest for test_add_project.test_adding_project (2)" />
+      <item itemvalue="Python tests.pytest for test_add_project.test_adding_project (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.project" />
-        <item itemvalue="Python tests.pytest for test_add_project" />
+        <item itemvalue="Python tests.pytest for test_add_project.test_adding_project (3)" />
+        <item itemvalue="Python tests.pytest for test_add_project.test_adding_project (2)" />
+        <item itemvalue="Python tests.pytest for test_add_project.test_adding_project (1)" />
+        <item itemvalue="Python tests.pytest for test_add_project.test_adding_project" />
         <item itemvalue="Python tests.pytest in test_add_project.py" />
-        <item itemvalue="Python tests.pytest in test_del_project.py" />
-        <item itemvalue="Python tests.pytest for test_add_project.test_create_project" />
       </list>
     </recent_temporary>
   </component>
@@ -378,21 +423,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_add_project_test_create_project - 2018.08.16 at 15h 25m 33s.xml">
-      <configuration name="pytest for test_add_project.test_create_project" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_del_project_py - 2018.08.16 at 15h 34m 32s.xml">
-      <configuration name="pytest in test_del_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_del_project_py - 2018.08.16 at 15h 35m 24s.xml">
-      <configuration name="pytest in test_del_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_project_py - 2018.08.16 at 15h 35m 32s.xml">
-      <configuration name="pytest in test_add_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_project_py - 2018.08.16 at 15h 35m 49s.xml">
-      <configuration name="pytest in test_add_project.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_add_project_py - 2018.08.16 at 15h 37m 19s.xml">
       <configuration name="pytest in test_add_project.py" configurationId="tests" />
     </history-entry>
@@ -408,6 +438,21 @@
     <history-entry file="pytest_for_test_add_project - 2018.08.16 at 15h 55m 04s.xml">
       <configuration name="pytest for test_add_project" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_add_project_py - 2018.08.16 at 17h 14m 19s.xml">
+      <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_project_test_adding_project - 2018.08.16 at 17h 18m 19s.xml">
+      <configuration name="pytest for test_add_project.test_adding_project" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_project_test_adding_project_(1) - 2018.08.16 at 17h 25m 51s.xml">
+      <configuration name="pytest for test_add_project.test_adding_project (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_project_test_adding_project_(2) - 2018.08.16 at 17h 26m 34s.xml">
+      <configuration name="pytest for test_add_project.test_adding_project (2)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_project_test_adding_project_(3) - 2018.08.16 at 17h 28m 46s.xml">
+      <configuration name="pytest for test_add_project.test_adding_project (3)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1395" height="875" extended-state="6" />
@@ -419,14 +464,14 @@
       <window_info anchor="bottom" id="Thumbnails" weight="0.32863188" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32822478" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.666919" visible="true" weight="0.33461046" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66593885" visible="true" weight="0.33461046" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6071158" weight="0.42168674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.333081" side_tool="true" weight="0.33568406" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.33406115" side_tool="true" visible="true" weight="0.33461046" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -665,16 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_del_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#24#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -714,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/navigation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -746,18 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1534423005858" expanded="true" signature="268:273" ph="..." />
-            <marker date="1534423005858" expanded="true" signature="2062:2231" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
@@ -776,48 +792,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#25#58#0" expanded="true" />
-            <marker date="1534426394447" expanded="true" signature="501:506" ph="..." />
-            <marker date="1534426394447" expanded="true" signature="742:1179" ph="..." />
-            <marker date="1534426394447" expanded="true" signature="770:1167" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="77" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="77" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <marker date="1534423500133" expanded="true" signature="809:873" ph="..." />
-            <marker date="1534423500133" expanded="true" signature="949:954" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/projects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/test.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/projects.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_del_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="605">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#25#58#0" expanded="true" />
+            <marker date="1534428573007" expanded="true" signature="982:987" ph="..." />
+            <marker date="1534428573007" expanded="true" signature="1223:1660" ph="..." />
+            <marker date="1534428573007" expanded="true" signature="1251:1648" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1534429547649" expanded="true" signature="268:273" ph="..." />
+            <marker date="1534429547649" expanded="true" signature="2062:2189" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <marker date="1534429664716" expanded="true" signature="830:894" ph="..." />
+            <marker date="1534429664716" expanded="true" signature="970:975" ph="..." />
+            <marker date="1534429664716" expanded="true" signature="1374:1379" ph="..." />
+            <marker date="1534429664716" expanded="true" signature="1625:1690" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/projects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>

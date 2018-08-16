@@ -5,7 +5,7 @@ import string
 
 constant = [
     Project(name="name1", description="description1"), Project(name="name2", description="description2"),
-    Project(name="name3", description="description3"), Project(name="name4", description="description5"),
+    Project(name="name3", description="description3"), Project(name="name4", description="description4"),
 ]
 
 
