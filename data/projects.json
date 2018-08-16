@@ -1,17 +1,20 @@
 [
   {
-    "id": null, 
+    "py/object": "model.project.Project", 
+    "description": "description_project_1222",
     "name": "new_project_1", 
-    "description": "description_project_1"
+    "id": null
   }, 
   {
-    "id": null, 
-    "name": "new_project_2", 
-    "description": ""
+    "py/object": "model.project.Project", 
+    "description": "", 
+    "name": "new_project_2222",
+    "id": null
   }, 
   {
-    "id": null, 
-    "name": "new_project_3", 
-    "description": "description_project_3"
+    "py/object": "model.project.Project", 
+    "description": "description_project_3", 
+    "name": "new_project_3222",
+    "id": null
   }
 ]

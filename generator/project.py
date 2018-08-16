@@ -3,6 +3,7 @@ import random
 import string
 import os.path
 import json
+import jsonpickle
 import getopt
 import sys
 
@@ -47,5 +48,8 @@ testdata4 = [Project(name=random_string("", 20), description=random_string("", 6
 
 file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f)  #"../data/projects.json")
 
+#with open(file, "w") as opened_file:
+#    opened_file.write(json.dumps(testdata, default=lambda x:   x.__dict__, indent=2))
 with open(file, "w") as opened_file:
-    opened_file.write(json.dumps(testdata, default=lambda x:   x.__dict__, indent=2))
+    jsonpickle.set_encoder_options("json", indent=2)
+    opened_file.write(jsonpickle.encode(testdata))
