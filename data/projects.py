@@ -14,7 +14,7 @@ def random_string(prefix, maxlen):
     return prefix + " " + "".join([random.choice(symbols) for i in range(random.randrange(maxlen))])
 
 
-testdata = [Project(name="new_project_1", description="description_project_1"),
+testdata0 = [Project(name="new_project_1", description="description_project_1"),
             Project(name="new_project_2", description=""),
             Project(name="new_project_3", description="description_project_3")]
 
